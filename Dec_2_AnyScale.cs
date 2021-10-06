@@ -5,7 +5,6 @@ public class Program
     private static string DecToAnyScale(long Dec, long Scal)
     {
           long Hatv;
-          
           long Mar;
           string Res;
           long Ch;
@@ -26,7 +25,6 @@ public class Program
              Dec = Dec - (Mar * Hatv / Scal);
              Hatv = Hatv * Scal;
           }
-
           return Res; 
     }
     
